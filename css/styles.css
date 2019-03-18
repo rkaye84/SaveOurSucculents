@@ -59,5 +59,10 @@ li {
 	background-image: url('../img/border.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-  height: 500px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin: 0 auto;
+}
+#carouselExampleIndicators {
+  height: 600px;
 }

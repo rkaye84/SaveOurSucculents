@@ -85,12 +85,13 @@ p {
 }
 
 #plantstyles {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 #stylesideas {
   border: none;
+  padding-bottom: 45px;
 }
 
 .hovereffect {
@@ -191,8 +192,36 @@ p {
 
 
 .text {
-  background-color: #4CAF50;
   color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 22px;
+  padding: 30px 32px;
+  font-family: oswald;
+}
+
+.footer {
+  width: 100%;
+  color: white;
+}
+.page-footer {
+  background-color: #b2b2b2;
+  color: white;
+  font-family: oswald;
+
+}
+#footerpara {
+  color:white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.foot-link {
+  color: #FFFFFF;
+}
+
+.foot-link:hover .foot-link {
+  color: #636e72;
+}
+#stylespara {
+  justify-content: center;
+  margin-bottom: 20px;
 }

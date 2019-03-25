@@ -5,9 +5,10 @@
 .container-fluid-1{
 font-family: sans-serif;
 color: white;
-max-height: 670px;
-padding: 45px;
+height: 670px;
+
 padding-top: 75px;
+padding-bottom: 100px;
 text-align: center;
 background-image: url(houseplant-wall.jpg);
 }
@@ -15,25 +16,11 @@ background-image: url(houseplant-wall.jpg);
 .container-fluid-2{
   font-family: serif;
   padding: 45px;
-  margin-top: 100px;
+  margin-top: 10px;
   margin-left: 80px;
   color: black;
-  padding-top: 260px;
   padding-bottom: 50px;
 
-}
-
-#buttonregion{
-  display: flex;
-  width: 100%;
-  height: 40vh;
-}
-
-.button{
-  align-self: center;
-  margin: 0 auto;
-  width: 90px;
-  max-height: auto;
 }
 
 .nav{

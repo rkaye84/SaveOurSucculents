@@ -68,13 +68,14 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
   padding-top: 20%;
-  padding-bottom: 20%;
+  padding-bottom: 8%;
   margin: 0 auto;
   border: none;
 }
 
 #about {
   align-self: center;
+  padding-bottom: 2%;
 }
 p {
   color: #B2B2B2;

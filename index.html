@@ -5,11 +5,15 @@
   <title>Save Our Succulents</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- Adding source for jQuery -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <div id="intro">
-    <img class="logo" src="SoS.png"/>
+    <img class="logo" src="SoS.png" />
   </div>
   <div class="subheading">
     <h2>A Guide to Modern Houseplanting</h2>
@@ -17,9 +21,15 @@
   <div id="buttonregion">
     <a class="nav-link" href="#about"><img class="button" src="BUTTON.png"></a>
   </div>
-  <div id="about">
-    <h2>About</h2>
-    <p>I don't know what to write</p>
+  <div>
+    <div class="container" id="about">
+      <h2>About Us</h2>
+      <p>Are you bored of your dull rooms, ready to spice up your life with a bit of greenery? A relatively experienced green thumb looking for your next challenge? Or perhaps you're looking for inspiration on how to present your houseplants in the
+        most insta-worthy way possible ... </p>
+      <h4>Whoever you are, you've come to the right place!</h4>
+      <p>Explore our site to find the perfect plant for you, and look further for tips on where is best to buy and how to get them looking like they're straight from pinterest!</p>
+      <h2>Choose your difficultly below ... </h2>
+    </div>
   </div>
   <div>
     <ul id="nav" class="nav justify-content-center">
@@ -42,42 +52,51 @@
       <h2>Plant Style Ideas</h2>
     </div>
     <div class="row" id="stylespara">
-    <p>Fun ways to show off your houseplant collection!</p>
+      <p>Fun ways to show off your houseplant collection!</p>
     </div>
     <div class="row">
       <div class="col-4">
         <div class="hovereffect">
           <img src="plants1.png">
-            <div class="middle">
-            <div class="text">Anything can be used as a planter!</div>
+          <div class="middle">
+            <div class="text">
+              <h6>Re-purpose items from your cupboard</h6>
+              <p>Who said plants needed to be in a pot? Certainly not us! Get that cute clutter vibe by popping your houseplant into a patterned mug, pot or bowl to display.</p>
             </div>
+          </div>
         </div>
       </div>
       <div class="col-4">
         <div class="hovereffect">
           <img src="terrarium.png">
-            <div class="middle">
-            <div class="text">Terrariums are a chic way to show off your succulents!</div>
+          <div class="middle">
+            <div class="text">
+              <h6>A terrarium may appeal to the angular fans amongst you</h6>
+              <p>These stylish contraptions may be a little more effort, but look very clean cut and futuristic. Certain to be a talking point for your visitors</p>
             </div>
           </div>
         </div>
+      </div>
       <div class="col-4">
         <div class="hovereffect">
           <img src="plants2.png">
-            <div class="middle">
-            <div class="text">Hanging planters gives more dimension to your collection!</div>
+          <div class="middle">
+            <div class="text">
+              <h6>Get creative by adding different levels</h6>
+              <p>You place on your plants onto a surface? Dull. Spice things up by hanging your potted friends from a shelf or ledge. Having plants at different levels is a simply way to make them more exciting!</p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="jumbotron">
-  <div class="container">
+  <div class="jumbotron">
+    <div class="container">
+    </div>
   </div>
-</div>
 
-<footer class="page-footer font-small pt-4">
+  <footer class="page-footer font-small pt-4">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -100,34 +119,34 @@
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
 
-            <ul class="list-unstyled">
-              <li>
-                <a class="foot-link" href="easy.html">Easy</a>
-              </li>
-              <li>
-                <a class="foot-link" href="medium.html">Medium</a>
-              </li>
-              <li>
-                <a class="foot-link" href="difficult.html">Challenging</a>
-              </li>
-              <li>
-                <a class="foot-link" href="#stylesideas">Planting Styles</a>
-              </li>
-            </ul>
+          <ul class="list-unstyled">
+            <li>
+              <a class="foot-link" href="easy.html">Easy</a>
+            </li>
+            <li>
+              <a class="foot-link" href="medium.html">Medium</a>
+            </li>
+            <li>
+              <a class="foot-link" href="difficult.html">Challenging</a>
+            </li>
+            <li>
+              <a class="foot-link" href="#stylesideas">Planting Styles</a>
+            </li>
+          </ul>
 
-          </div>
-          <!-- Grid column -->
+        </div>
+        <!-- Grid column -->
 
 
-
-          </div>
-          <!-- Grid column -->
 
       </div>
-      <!-- Grid row -->
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
 
     </div>
     <!-- Footer Links -->
@@ -137,8 +156,8 @@
   <!-- Footer -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Save Our Succulents</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+  <container>
+    <img url('https://github.com/SaveOurSucculents/SoS.png')></img>
+  </container>
+</body>
+
+</html>

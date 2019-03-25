@@ -1,0 +1,13 @@
+.nav{
+  text-align: center;
+}
+
+container-fluid{
+font-family: sans-serif;
+color: white;
+max-height: 670px;
+padding: 45px;
+padding-top: 75px
+background-image: url(houseplant-wall.jpg)
+
+}

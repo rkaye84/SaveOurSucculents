@@ -8,6 +8,7 @@ color: white;
 height: 670px;
 padding-top: 100px;
 padding-bottom: 100px;
+padding: 100px; 
 text-align: center;
 background-image: url(houseplant-wall.jpg);
 }

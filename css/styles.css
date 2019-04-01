@@ -149,7 +149,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 20px;
   background-color: transparent;
   color: #FFF;
   padding: 1em 0;
@@ -198,7 +198,7 @@ p {
 
 .text {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   padding: 30px 32px;
   font-family: 'Montserrat', sans-serif;
 }

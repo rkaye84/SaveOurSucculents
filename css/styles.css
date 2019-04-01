@@ -22,7 +22,7 @@ body {
 h2 {
   margin: 0 auto;
   text-align: center;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   color: #575756;
 }
@@ -48,7 +48,7 @@ ul {
   overflow: hidden;
   background-color: #B2B2B2;
   color: #FFFFFF;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -200,7 +200,7 @@ p {
   color: white;
   font-size: 22px;
   padding: 30px 32px;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
@@ -210,7 +210,7 @@ p {
 .page-footer {
   background-color: #b2b2b2;
   color: white;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
 
 }
 #footerpara {

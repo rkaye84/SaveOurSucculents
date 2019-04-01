@@ -3,14 +3,14 @@
   scroll-behavior: smooth;
 }
 <!--.container-fluid-1{
-font-family: oswald;
+font-family: 'Montserrat', sans-serif;
 color: white;
 height: 670px;
 padding-top: 100px;
 padding-bottom: 100px;
 padding: 100px;
 text-align: center;
-background-image: url(houseplant-wall.jpg);
+background-image: url(img/houseplant-wall.jpg);
 }-->
 
 
@@ -25,7 +25,7 @@ background-image: url(houseplant-wall.jpg);
   padding: 45px;
   margin-top: -10px;
   color: black;
-  padding-bottom: 50px;
+  padding-bottom: 15%;
   width: 100%;
   justify-content: center;
 
@@ -40,7 +40,7 @@ h1{
   color: white;
   font-size: 50px;
   align-self: center;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
   font-kerning: 4px;
   padding: 15px
   font-family: sans-serif;
@@ -59,13 +59,13 @@ hr {
 h2{
   color: grey;
   padding: 15px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   align-self: center;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("houseplant-wall.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/houseplant-wall.jpg");
   height: 46%;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ h2{
 
 h5 {
   font-size: 24px;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
   font-kerning: 2px;
 }
 
@@ -97,7 +97,7 @@ button {
   background-color: #b8e994;
   cursor: pointer;
   width: 18rem;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -149,7 +149,7 @@ button {
 
 #monstera-subtitle {
   color: grey;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -167,7 +167,7 @@ a {
 .page-footer {
   background-color: #b2b2b2;
   color: white;
-  font-family: oswald;
+  font-family: 'Montserrat', sans-serif;
 
 }
 #footerpara {
@@ -184,4 +184,14 @@ a {
 
 .foot-link:hover .foot-link {
   color: #636e72;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
 }

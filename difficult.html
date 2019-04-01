@@ -1,5 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE.html>
 <html>
+  <head>
+    <title>Challenging</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
 
 <head>
   <title>Difficult Houseplants</title>
@@ -7,54 +11,262 @@
   <link rel="stylesheet" type="text/css" href="css/style2.css" />
 </head>
 
-<body>
-  <div class="container-fluid-2">
-    <div class="row">
-      <div class="col-xl">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+   <strong>Wait a minute!</strong> The following plants require a loving and somewhat knowledgable owner. Please ensure you're confident in your own ability before continuing.
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+     <span aria-hidden="true">&times;</span>
+   </button>
+ </div>
+  </head>
+  <body>
 
-        <h1>
-          Challenging Houseplants - For Experienced Houseplanters Only!
-        </h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="easy.html">Easy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="medium.html">Medium</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="difficult.html">Difficult</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-        <div>
-          <h2>
-            Proceed with caution - these plants will only live happily with someone who knows their stuff when it comes to houseplanting. If you do happen to be a relative expert however then please, continue.
-          </h2>
-            <p>
-            </p>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Challenging Plants</h1><hr/>
+        <p>Proceed with caution - these plants will only live happily with someone who knows their stuff when it comes to houseplanting.<br><br> If you do happen to be a relative expert however then please, continue.</p>
+      </div>
+    </div>
+
+    <div class="container-fluid-2">
+        <div class="row  justify-content-md-center">
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/ivy.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" id="ivy-title">English Ivy</h5>
+                  <button class="card-subtitle mb-2 text-muted" id="ivy-subtitle"><a href="#ex1e" rel="modal:open">Click to find out more</a></button>
+                </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/fig.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" id="fig-title">Fiddle Leaf Fig</h5>
+                  <button class="card-subtitle mb-2 text-muted" id="fig-subtitle"><a href="#ex2e" rel="modal:open">Click to find out more</a></button>
+
+                </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/orchid.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" id="orchid-title">Orchid</h5>
+                  <button class="card-subtitle mb-2 text-muted" id="orchid-subtitle"><a href="#ex3e" rel="modal:open">Click to find out more</a></button>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid-2">
-    <div class="row">
-      <div class= "col-md">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="plants1.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content wordswordswordswordswordswordswordswordswordswordswordswordswordswords.</p>
-            </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="plants1.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's contentwordswordswordswordswordswordswordswordswordswordswordswordswordswords  .</p>
-            </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="plants1.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content wordswordswordswordswordswordswordswordswordswordswordswordswordswordswords.</p>
-            </div>
+    <div id="ex1e" class="modal">
+      <div class="container" id="modalcontainer">
+        <div class="clearfix">
+          <div class="box">
+            <img id="ivyimg" src="img/ivy2.jpg">
+          </div>
+          <div class="box">
+            <p id="modaltext">However stunning the English Ivy can be, like any traditional Englishman, it's rather particular.<br><br>Plenty of light. However careful not to leave somewhere excessively hot as can lead to drying and discolouration. Too cold an environment in contrast will lead to a purple discolouration.<br><br>
+	               Water: Like an evenly moist environment, and so freely water. Particularly during winter, they will need a little extra in the winter. Spray with soft water weekly. Can dilute with a quarter of fertiliser to improve performance.<br><br>
+	               Grow in a soil environment for optimum water retention and drainage.<br><br>
+	               Common pests affecting English Ivy plants are spider mites, aphids, mealybugs and scale insects. Red spider mites are often difficult to see without a close inspection. However, white webs formed on the plant are usually indicative of a spider mite infestation. Remove the infested leaves and treat the plant with a pesticide or insecticidal soap.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
         </div>
       </div>
   </div>
+  <div id="ex2e" class="modal">
+    <div class="container" id="modalcontainer">
+      <div class="clearfix">
+        <div class="box">
+          <img id="figimg" src="img/fig2.jpg">
+        </div>
+        <div class="box">
+          <p id="modaltext">Remember the roots – as in origin. Fiddle leaf figs come from jungle environments: dark, dense, warm and wet.<br><br>
+	To replicate the water level, think rainfall. The soil should be consistently damp, never soaking. To avoid overwatering, use this little trick from Chris Raimondi, president of the Raimondi Horticultural Group: to water properly, wait until the top inch of soil is dry. Then, thoroughly drench until water comes out the bottom of the pot and leave it to slowly dry out again. Signs of underwatering include limp, floppy leaves and foliage yellowing, browning then dropping off.<br><br>
+	Light. This plant needs quite an average level of light – shouldn’t be in direct sunlight though not in the darkness so save the south facing windows for your succulents! Signs of incorrect light exposure include flagging foliage and pale, spotty, or wan-looking leaves – something to look out for when buying also.<br><br>
+	Careful with the food – not much of an appetite so fertilise only once or twice a year.<br><br>
+	Watch out for this temperature – at home in a hot jungle and will be fine at a normal, homely temperature however will falter quickly when exposed to the cold. Avoid placing in a draft eg from a door or window.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="ex3e" class="modal">
+  <div class="container" id="modalcontainer">
+    <div class="clearfix">
+      <div class="box">
+        <img id="orchidimg" src="img/orchid2.jpg">
+      </div>
+      <div class="box">
+        <p id="modaltext">Orchids require ample water, but should certainly be left to dry out between waterings. To avoid overwatering, press a finger into the soil to test how damp it is. If it’s dry, give it some water, if not let it be – it’s happy!<br><br>
+	Indoor orchids are fans of humid environments (50-70%) which you can increase in your home to make it comfortable by placing a tray of water or pebbles below the orchid, misting daily – or alternatively investing in a humidifier.<br><br>
+	While producing new growth, orchids will need fertilising once to twice weekly. This need lessens as they mature, to only month then once they become dormant, stop although.<br><br>
+	If your orchid appears to become unhappy (stop blooming), replotting may be necessary. This should be done every other year anyway, as orchids can outgrow their homes or the soil may become crumbly. To replot, pick a slightly larger pot (orchid containers have holes to increase air circulation). Put your orchid potting mix into a large bowl and cover with boiling water. Drain once it reaches room temperature. They are very sensitive when it comes to bacteria and germs. Make a solution of ½ cup of household bleach and 1 gallon of water. Soak the planter in this, as well as any tools you use. Wash your hands before you proceed. Gently pull the pot away from the plant and wash off the roots. Use sharp scissors to cut off any brown or rotting roots. Fill the new planter with the soaked potting medium and place the plant so that the base is right at the top of the medium. Use a chopstick to help push bits of planting medium in between the roots. Keep the orchid misted for at least a week until the new roots begin to appear.<br><br>
+  Also keep an eye out for signs of pests or disease. Orchids are occasionally affected by mealybugs, scale, and aphids. These can usually be washed off or treated with insecticidal soap.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="page-footer font-small pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Save our Succulents</h5>
+        <p id="footerpara">We hope you've found some useful information to care for and expand your houseplant collection.  Contact us to find out more!</p>
+        <form>
+          <fieldset class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </fieldset>
+          <fieldset class="form-group">
+            <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+          </fieldset>
+          <fieldset class="form-group text-xs-right">
+            <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+          </fieldset>
+        </form>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="foot-link" href="easy.html">Easy</a>
+          </li>
+          <li>
+            <a class="foot-link" href="medium.html">Medium</a>
+          </li>
+          <li>
+            <a class="foot-link" href="difficult.html">Challenging</a>
+          </li>
+          <li>
+            <a class="foot-link" href="#stylesideas">Planting Styles</a>
+          </li>
+        </ul>
+
+        <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
+
+      </div>
+      <!-- Grid column -->
+
+
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+</footer>
+<!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+   <!--<script>
+       $(document).ready(function(){
+         $( "#snake-text" ).hide();
+         $( "#zz-text" ).hide();
+         $( "#aloe-text" ).hide();
+         $("#snake-subtitle").click(function(){
+           $("#snake-text").slideDown("slow");
+           $("#aloe-text").hide();
+         });
+       });
+   </script>
+   <script>
+       $(document).ready(function(){
+         $( "#zz-text" ).hide();
+         $( "#aloe-text" ).hide();
+         $( "#snake-text" ).hide();
+         $("#zz-subtitle").click(function(){
+           $("#zz-text").slideToggle("slow");
+         });
+       });
+       </script>
+       <script>
+           $(document).ready(function(){
+             $( "#aloe-text" ).hide();
+             $( "#snake-text" ).hide();
+             $( "#zz-text" ).hide();
+             $("#aloe-subtitle").click(function(){
+               $("#aloe-text").slideToggle("slow");
+             });
+           });
+       </script>
+
+        <script>
+          $(document).ready(function() {
+            $('.showClass').collapser({
+
+            });
+          });
+
+        </script>-->
+
+
+
 
 
 </body>
+
+
+
 </html>
